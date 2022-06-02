@@ -90,7 +90,7 @@ resource "aws_instance" "testInstance" {
   vpc_security_group_ids = ["${aws_security_group.sg_22.id}"]
   user_data = "${file("instancedata.sh")}"
 
-  key_name = "chandukey" 
+  key_name = "test" 
 
   
   tags = {
