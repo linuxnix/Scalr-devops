@@ -2,7 +2,7 @@
 
 
 provider "aws" {
-  region = "us-west-2a"
+  region = "us-west-2"
   version = "~> 2.0"
 }
 //creatting vpc
