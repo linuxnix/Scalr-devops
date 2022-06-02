@@ -12,7 +12,7 @@ variable "cidr_subnet" {
 }
 variable "availability_zone" {
   description = "availability zone to create subnet"
-  default = "us-west-2"
+  default = "us-west-2a"
 }
 
 variable "instance_ami" {
